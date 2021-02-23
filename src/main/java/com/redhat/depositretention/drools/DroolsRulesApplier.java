@@ -71,9 +71,9 @@ public class DroolsRulesApplier {
 
         CustomerHistory customerHistory = new CustomerHistory();
         switch (key) {
-            case "John": customerHistory.setCustomerAttribute("OFFER_UPGRADE");
+            case "Berri": customerHistory.setCustomerAttribute("SYSTEMS_OPERATIONAL");
                           break;
-            case "James": customerHistory.setCustomerAttribute("HIGH_BALANCE_DEBT");
+            case "Rosemont": customerHistory.setCustomerAttribute("MULTIPLE_EVENTS");
                           break;
         }
         return customerHistory;
